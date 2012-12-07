@@ -1,0 +1,2 @@
+class NoAffiliation(object):
+    pass
