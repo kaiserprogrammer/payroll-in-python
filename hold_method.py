@@ -1,2 +1,3 @@
 class HoldMethod(object):
-    pass
+    def disposition(self, paycheck):
+        paycheck.disposition = "Hold"

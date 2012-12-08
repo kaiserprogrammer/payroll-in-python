@@ -27,3 +27,6 @@ class MemoryDB(object):
 
     def remove_union_member(self, memberId):
         self.members.pop(memberId)
+
+    def get_all_employees(self):
+        return self.employees.values()

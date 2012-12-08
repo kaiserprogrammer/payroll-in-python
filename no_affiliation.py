@@ -1,2 +1,3 @@
 class NoAffiliation(object):
-    pass
+    def calculate_deductions(self, paycheck):
+        paycheck.deductions = 0

@@ -16,4 +16,4 @@ def test_changing_an_employee_to_be_in_a_union_affiliation():
     assert af.dues == 99.42
 
     member = db.get_union_member(e.memberId)
-    assert member == e
+    assert member is e
